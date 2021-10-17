@@ -171,7 +171,7 @@ def send_start(bot, update):
     text = PM_START_TEXT
 
 [[InlineKeyboardButton(text="🛡🈴CENTRAL COMMUNITY",url="https://t.me/central_community")]]
-  keyboard += [[InlineKeyboardButton(text="MY MASTER",url="t.me/parv200v"),InlineKeyboardButton(text="Source code",url="https://github.com/coderparv/central")]]
+  
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
