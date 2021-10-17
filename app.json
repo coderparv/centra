@@ -163,8 +163,9 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "Cinderella",
-   "repository": "https://github.com/Sur-vivor/CiderellaProBot",
-   "success_url": "https://telegram.dog/CinderellaProBot",
-   "logo": "https://telegra.ph/file/511ad504656e712b88235.jpg"
+   "name": "CENTRAL",
+  "description": " central bot",
+  "logo": "https://telegra.ph/file/3b33cb3b37de8fb6be180.jpg",
+  "keywords": ["telegram-bot"],
+  "repository": "https://github.com/coderparv/central",
 }
