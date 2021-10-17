@@ -172,8 +172,6 @@ def send_start(bot, update):
 
 [[InlineKeyboardButton(text="🛡🈴CENTRAL COMMUNITY",url="https://t.me/central_community")]]
   
-update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
-                                         reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
 
 def m_connect_button(bot, update):
