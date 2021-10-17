@@ -26,12 +26,12 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": ""
+         "value": "CAADBAADnRQAAqbxcR55KHlHM3UtNQI"
       },
       "MESSAGE_DUMP": {
          "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
          "required": false,
-         "value": ""   
+         "value": "-1001695774742"   
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -41,7 +41,7 @@
       "GBAN_LOGS": {	
          "description": "Gban log channel, include the hyphen too: ex: -123456",
          "required": false,
-         "value": ""	
+         "value": "-1001695774742"	
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables.",
@@ -59,16 +59,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1118936839"
+         "value": "1937738983"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "✰Sᴀͥʀᴀͣᴛͫʜ™️✰"
+         "value": "PARV"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1118936839"
+         "value": "1937738983"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -85,7 +85,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/511ad504656e712b88235.jpg"    
+         "value": ""    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -108,12 +108,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1118936839"
+         "value": "1937738983"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1118936839"
+         "value": "1937738983"
       },
      
       "TOKEN": {
@@ -134,7 +134,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1118936839"
+         "value": "1937738983"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -163,9 +163,8 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "CENTRAL",
-  "description": " central bot",
-  "logo": "https://telegra.ph/file/3b33cb3b37de8fb6be180.jpg",
-  "keywords": ["telegram-bot"],
-  "repository": "https://github.com/coderparv/central",
+   "name": "Central",
+   "repository": "https://github.com/coderparv/Centra",
+   "success_url": "t.me/parv200v",
+   "logo": "https://telegra.ph/file/3b33cb3b37de8fb6be180.jpg"
 }
